@@ -1,0 +1,24 @@
+software =
+{
+	version = "0.1";    
+	u54 = {
+	hardware-compatibility: [ "1.0" ];
+	files: (
+		{
+			filename = "fitImage";
+			path = "/mnt/fitImage";
+			#sha256 = "31a4bcc398b42c8e69369f45242bc859b0a8091062bf17b69084a285b5b8cacf";
+			#version = "2021.1";
+			#version = "5.10.41";
+			#name = "kernel_update";		
+			#install-if-higher = True;
+            	}
+	);
+	scripts: (
+		{
+			filename = "update.sh";
+			type = "shellscript";
+		}
+	);
+};
+}
